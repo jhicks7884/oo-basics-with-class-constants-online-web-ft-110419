@@ -4,8 +4,8 @@ class Shoe
 
     BRANDS = []
 
-  def initialize(brands)
-    @brands = brands
+  def initialize(brand)
+    @brand = brand
   end
 
   def cobble
@@ -15,6 +15,6 @@ class Shoe
 
         def brands=(brands)
           @brand = brand
-          BRANDS << brand
+           BRANDS << brand unless BRANDS.any? { |b| b == brand }
  end
 end
