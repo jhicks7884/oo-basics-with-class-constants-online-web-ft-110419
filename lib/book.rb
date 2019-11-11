@@ -1,7 +1,7 @@
 class Book
-  attr_accessor :author, :page_count, :genre
+  attr_accessor :author, :page_count
   :page_count, :genre
-  attr_reader :title
+  attr_reader :title, :genre
 
 GENRES = []
 
@@ -12,5 +12,10 @@ GENRES = []
   def turn_page
     puts "Flipping the page...wow, you read fast!"
   end
+
+def genre = (genre)
+  @genre = genre
+  GENRE << genre
+ end
 
 end
