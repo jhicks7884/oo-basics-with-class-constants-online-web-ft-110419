@@ -13,9 +13,9 @@ GENRES = []
     puts "Flipping the page...wow, you read fast!"
   end
 
-def genre = (genre)
-  @genre = genre
-  GENRE << genre
+   def genre = (genre)
+    @genre = genre
+    GENRE << genre
+    
  end
-
 end
